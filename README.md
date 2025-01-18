@@ -1,1 +1,1 @@
-# SPQ Modeling using KNN for classification and regression
+# SPQ Modeling using KNN for Classification and Regression problems
