@@ -1,3 +1,5 @@
 # SPR Modeling using KNN for Classification and Regression problems
 
 Mutagenicity is the property of substances to induce genetic mutation. It is one of the most important environmental, health and safety (EHS) properties to check when dealing with novel chemicals (e.g., drugs or solvents). In this case, we are going to use the data of mutagenicity on Salmonella typhimurium (Ames test). This dataset was collected by the Istituto di Ricerche Farmacologiche Mario Negri, merging experimental data from a benchmark dataset compiled by [HMS+09] from a collection of data made available by the Japan Health Ministry within their Ames (Q)SAR project.
+
+Important inputs from this data are used to model mutagenicity using k-nearest neighbour algorithm, classifying them into mutegenic or not. Predicted results are also compared with the VEGA model. In the VEGA model, they have choosen k=4 with a similarity threshold of 0.7. Also, the developers of the VEGA kNN model used the leave-one-out approach to assess the performace of their model, which is also tested in this project. Finally, k-fold cross-validation is used for finding best k value.
